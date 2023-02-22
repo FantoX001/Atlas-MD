@@ -12,7 +12,7 @@
 /-----------------------------------------------------------------------------------/
 / Author and Main Developer: FantoX                                                 /
 / Github: https://github.com/FantoX001/Atlas-MD                                     /
-/ Powered By: Team ATLAS                                                            /
+/ Powered By: ☯Master Avan☯                                                            /
 /-----------------------------------------------------------------------------------/
 /             Meet Team ATLAS who holds all rights to this repository:              /
 /                                                                                   /
@@ -44,7 +44,7 @@ global.sessionId = process.env.SESSION_ID || "ok";
 global.prefa = process.env.PREFIX || "-";
 global.tenorApiKey =
   process.env.TENOR_API_KEY || "AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c";
-global.packname = process.env.PACKNAME || `Atlas MD`;
+global.packname = process.env.PACKNAME || `☯Kaizer Phoenix☯`;
 global.author = process.env.AUTHOR || "by: Team Atlas";
 global.port = process.env.PORT || "8000";
 
