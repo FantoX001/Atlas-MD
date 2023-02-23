@@ -1,4 +1,9 @@
 const axios = require("axios");
+const {
+  Sticker,
+  createSticker,
+  StickerTypes,
+} = require("wa-sticker-formatter");
 
 module.exports = {
   name: "stickersearch",
@@ -7,7 +12,7 @@ module.exports = {
   category: "Search",
   usage: `stickersearch <search term>`,
   react: "🍁",
-  start: async (Miku, m, { text, prefix, args,pushName }) => {
+  start: async (Miku, m, { text, prefix, args, pushName }) => {
     if (!args[0])
       return Miku.sendMessage(
         m.from,
@@ -21,9 +26,22 @@ module.exports = {
 
     let result = Math.floor(Math.random() * 8);
     let gifUrl = gif.data.results[result].media_formats.gif.url;
-    //console.log(gifUrl);
 
-        await Miku.sendVideoAsSticker(m.from, gifUrl, m, { packname: packname, author: pushName });
-      
+    const response = await axios.get(gifUrl, {
+      responseType: "arraybuffer",
+    });
+    const buffer = Buffer.from(response.data, "utf-8");
+  
+      let stickerMess = new Sticker(buffer, {
+        pack: packname,
+        author: pushName,
+        type: StickerTypes.FULL,
+        categories: ['🤩', '🎉'],
+        id: '12345',
+        quality: 60,
+        background: 'transparent'
+    });
+    const stickerBuffer2 = await stickerMess.toBuffer()
+    Miku.sendMessage(m.from, {sticker:stickerBuffer2}, { quoted: m })
   },
 };

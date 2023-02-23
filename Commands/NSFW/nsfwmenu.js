@@ -64,7 +64,7 @@ module.exports = {
 ├・ 💦 ᴛᴀᴛᴛᴏᴏ, ᴄʜᴀɪɴ,
 ├・ 💦 ꜰʟᴀᴛᴄʜᴇꜱᴛ, ꜰɪɴɢᴇʀɪɴɢ 
 ├
-╰──────────────────╯\n\m
+╰──────────────────╯\n\n
 
 🎀 Powered By: *FantoX APIs* 🎀\n\n*🧩 API link:* \nhttps://fantox-api.vercel.app\n`
 
