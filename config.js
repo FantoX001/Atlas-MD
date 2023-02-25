@@ -39,13 +39,13 @@ if (!gg) {
 
 
 global.owner = gg.split(",");
-global.mongodb = process.env.MONGODB || "mongodb+srv://fantox:xrto71r@cluster0.dnlowts.mongodb.net/?retryWrites=true&w=majority";
+global.mongodb = process.env.MONGODB || "mongodb+srv://Yakashi13:JgqyU1h6rCuoWZB3@cluster0.bxg2jzn.mongodb.net/?retryWrites=true&w=majority";
 global.sessionId = process.env.SESSION_ID || "ok";
 global.prefa = process.env.PREFIX || "-";
 global.tenorApiKey =
   process.env.TENOR_API_KEY || "AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c";
 global.packname = process.env.PACKNAME || `𝖄𝖆𝖐𝖆𝖘𝖍𝖎 𝕸𝕯`;
-global.author = process.env.AUTHOR || "by: TEAM 𝕬𝖙𝖑𝖆𝖘";
+global.author = process.env.AUTHOR || "by: 𝖄𝖆𝖐𝖆𝖘𝖍𝖎";
 global.port = process.env.PORT || "8000";
 
 module.exports = {
