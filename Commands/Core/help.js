@@ -29,7 +29,7 @@ if (args[0]) {
 
 let textHelpMenu = `Konnichiwa *${pushName}* Senpai,
 
-I am *${botName}*, a bot developed by *Team Atlas*.
+I am *${botName}*.
 
 🎀 My prefix is: *${prefix}*
 
@@ -245,6 +245,7 @@ textHelpMenu += `╭────ꕥ NSFW ꕥ────╮
 }
           
 textHelpMenu +=`*🔰  ${botName}  🔰*
+_MOD Owned By: *Yakashi*_
  _Powered By:_ *Team ATLAS*
 
 🎀 To use any of these commands type " *${prefix}Command name* ".
