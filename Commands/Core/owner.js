@@ -27,10 +27,10 @@ module.exports = {
             });
             var mention = await modlist.map(mod => mod.id);
             let xy = modlist.map(mod => mod.id);
-            let yz = ownerList.map(owner => owner+"@s.whatsapp.net");
+            let yz = ownerList.map(owner => owner+"@Yakashi");
             let xyz = xy.concat(yz);
 
-            ment = [ownerList.map(owner => owner+"@s.whatsapp.net"), mention];
+            ment = [ownerList.map(owner => owner+"@Yakashi"), mention];
             let textM = `             🧣  *${botName} Mods*  🧣\n\n`;
 
             if(ownerList.length == 0){
@@ -38,12 +38,12 @@ module.exports = {
             }
 
             for (var i = 0; i < ownerList.length; i++) {
-              textM += `\n〽️ @${ownerList[i]}\n`
+              textM += `\n〽️ @ ${ownerList[i]}\n`
             }
 
             if(modlistString != ""){
               for (var i = 0; i < modlist.length; i++) {
-                textM += `\n🎀 @${modlist[i].id.split("@")[0]}\n`
+                textM += `\n🎀 @ ${modlist[i].id.split("@")[0]}\n`
               }
             } 
             
