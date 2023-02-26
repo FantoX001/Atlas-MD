@@ -25,7 +25,6 @@ const { mkchar } = require("./Database/dataschema.js");
 18 --- Shinbou
 19 --- Eiko
 20 --- Benimaru // Added By Yakashi
-21 --- Yakashi  // Added By Yakashi
 
 Image Source: https://wall.alphacoders.com/
 Image Source: https://wallpapercave.com/
