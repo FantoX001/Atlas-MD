@@ -45,7 +45,7 @@ global.charID0 = {
 }
 
 global.charID1 = {
-  botName : "Power",
+  botName : "𝙋𝙤𝙬𝙚𝙧",
   botVideo : fs.readFileSync("./Assets/power.mp4"),
   botImage1 : "https://wallpapercave.com/wp/wp11253614.jpg",
   botImage2 : "https://wallpapercave.com/wp/wp9413488.jpg",
@@ -56,7 +56,7 @@ global.charID1 = {
 }
 
 global.charID2 = {
-  botName : "Makima",
+  botName : "𝙈𝙖𝙠𝙞𝙢𝙖",
   botVideo : fs.readFileSync("./Assets/makima.mp4"),
   botImage1 : "https://images5.alphacoders.com/126/1264439.jpg",
   botImage2 : "https://images8.alphacoders.com/122/1227171.jpg",
@@ -67,7 +67,7 @@ global.charID2 = {
 }
 
 global.charID3 = {
-  botName : "Denji",
+  botName : "𝘿𝙚𝙣𝙟𝙞",
   botVideo : fs.readFileSync("./Assets/denji.mp4"),
   botImage1 : "https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2022/11/Chainsaw-Man-Denji-e-Power.webp?resize=1068%2C601&ssl=1",
   botImage2 : "https://images.alphacoders.com/128/1284967.jpg",
@@ -78,7 +78,7 @@ global.charID3 = {
 }
 
 global.charID4 = {
-  botName : "Zero Two",
+  botName : "𝙕𝙚𝙧𝙤 𝙏𝙬𝙤",
   botVideo : fs.readFileSync("./Assets/zerotwo.mp4"),
   botImage1 : "https://images3.alphacoders.com/949/949253.jpg",
   botImage2 : "https://images7.alphacoders.com/898/898638.jpg",
@@ -89,7 +89,7 @@ global.charID4 = {
 }
 
 global.charID5 = {
-  botName : "Chika",
+  botName : "𝘾𝙝𝙞𝙠𝙖",
   botVideo : fs.readFileSync("./Assets/chika.mp4"),
   botImage1 : "https://images4.alphacoders.com/100/1002134.png",
   botImage2 : "https://images4.alphacoders.com/100/1002714.jpg",
@@ -100,7 +100,7 @@ global.charID5 = {
 }
 
 global.charID6 = {
-  botName : "Miku",
+  botName : "𝙈𝙞𝙠𝙪",
   botVideo : fs.readFileSync("./Assets/miku.mp4"),
   botImage1 : "https://wallpapercave.com/wp/wp10524580.jpg",
   botImage2 : "https://wallpapercave.com/wp/wp4828029.jpg",
@@ -111,7 +111,7 @@ global.charID6 = {
 }
 
 global.charID7 = {
-  botName : "Marin",
+  botName : "𝙈𝙖𝙧𝙞𝙣 𝙆𝙞𝙩𝙖𝙜𝙖𝙬𝙖",
   botVideo : fs.readFileSync("./Assets/marin.mp4"),
   botImage1 : "https://images2.alphacoders.com/125/1257915.jpg",
   botImage2 : "https://wallpapercave.com/wp/wp10472356.png",
@@ -122,7 +122,7 @@ global.charID7 = {
 }
 
 global.charID8 = {
-  botName : "Ayanokoji",
+  botName : "𝘼𝙮𝙖𝙣𝙤𝙠𝙤𝙟𝙞",
   botVideo : fs.readFileSync("./Assets/ayanokoji.mp4"),
   botImage1 : "https://wallpapers.com/images/file/kiyotaka-ayanokoji-in-pink-qs33qgqm79ccsq7n.jpg",
   botImage2 : "https://wallpapercave.com/wp/wp6530733.jpg",
@@ -133,7 +133,7 @@ global.charID8 = {
 }
 
 global.charID9 = {
-  botName : "Ruka",
+  botName : "𝙍𝙪𝙠𝙖",
   botVideo : fs.readFileSync("./Assets/ruka.mp4"),
   botImage1 : "https://wallpapercave.com/wp/wp8228630.jpg",
   botImage2 : "https://wallpapercave.com/uwp/uwp1175286.jpeg",
@@ -145,7 +145,7 @@ global.charID9 = {
 
 
 global.charID10 = {
-  botName : "Mizuhara",
+  botName : "𝙈𝙞𝙯𝙪𝙝𝙖𝙧𝙖",
   botVideo : fs.readFileSync("./Assets/mizuhara.mp4"),
   botImage1 : "https://images3.alphacoders.com/128/1288059.png",
   botImage2 : "https://images3.alphacoders.com/125/1251910.jpg",
@@ -157,7 +157,7 @@ global.charID10 = {
 
 
 global.charID11 = {
-  botName : "Rem",
+  botName : "𝙍𝙚𝙢",
   botVideo : fs.readFileSync("./Assets/rem.mp4"),
   botImage1 : "https://images.alphacoders.com/711/711900.png",
   botImage2 : "https://wallpapercave.com/uwp/uwp3278068.jpeg",
@@ -169,7 +169,7 @@ global.charID11 = {
 
 
 global.charID12 = {
-  botName : "Sumi",
+  botName : "𝙎𝙪𝙢𝙞",
   botVideo : fs.readFileSync("./Assets/sumi.mp4"),
   botImage1 : "https://moewalls.com/wp-content/uploads/2022/07/sumi-sakurasawa-hmph-rent-a-girlfriend-thumb.jpg",
   botImage2 : "https://images6.alphacoders.com/128/1281400.jpg",
@@ -180,7 +180,7 @@ global.charID12 = {
 }
 
 global.charID13 = {
-  botName : "Kaguya",
+  botName : "𝙆𝙖𝙜𝙪𝙮𝙖",
   botVideo : fs.readFileSync("./Assets/kaguya.mp4"),
   botImage1 : "https://wallpapercave.com/wp/wp6099650.png",
   botImage2 : "https://wallpapercave.com/wp/wp5733231.png",
@@ -191,7 +191,7 @@ global.charID13 = {
 }
 
 global.charID14 = {
-  botName : "Yumeko",
+  botName : "𝙔𝙪𝙢𝙚𝙠𝙤",
   botVideo : fs.readFileSync("./Assets/yumeko.mp4"),
   botImage1 : "https://wallpapercave.com/wp/wp5017991.jpg",
   botImage2 : "https://wallpapercave.com/wp/wp4304699.png",
@@ -202,7 +202,7 @@ global.charID14 = {
 }
 
 global.charID15 = {
-  botName : "Kurumi",
+  botName : "𝙆𝙪𝙧𝙪𝙢𝙞",
   botVideo : fs.readFileSync("./Assets/kurumi.mp4"),
   botImage1 : "https://wallpapercave.com/wp/wp2535489.jpg",
   botImage2 : "https://wallpapercave.com/wp/wp5179279.jpg",
@@ -214,7 +214,7 @@ global.charID15 = {
 
 
 global.charID16 = {
-  botName : "Mai",
+  botName : "𝙈𝙖𝙞",
   botVideo : fs.readFileSync("./Assets/mai.mp4"),
   botImage1 : "https://images4.alphacoders.com/972/972790.jpg",
   botImage2 : "https://images6.alphacoders.com/129/1292073.png",
@@ -226,7 +226,7 @@ global.charID16 = {
 
 
 global.charID17 = {
-  botName : "Yor",
+  botName : "𝙔𝙤𝙧",
   botVideo : fs.readFileSync("./Assets/yor.mp4"),
   botImage1 : "https://images7.alphacoders.com/123/1236729.jpg",
   botImage2 : "https://images7.alphacoders.com/122/1229718.jpg",
@@ -238,7 +238,7 @@ global.charID17 = {
 
 
 global.charID18 = {
-  botName : "Shinbou",
+  botName : "𝙎𝙝𝙞𝙣𝙤𝙗𝙪",
   botVideo : fs.readFileSync("./Assets/shinbou.mp4"),
   botImage1 : "https://wallpapercave.com/wp/wp4650481.jpg",
   botImage2 : "https://wallpapercave.com/uwp/uwp2138883.webp",
@@ -249,7 +249,7 @@ global.charID18 = {
 }
 
 global.charID19 = {
-  botName : "Eiko",
+  botName : "𝙀𝙞𝙠𝙤",
   botVideo : fs.readFileSync("./Assets/eiko.mp4"),
   botImage1 : "https://images8.alphacoders.com/122/1229829.jpg",
   botImage2 : "https://images2.alphacoders.com/123/1234944.png",
@@ -260,7 +260,7 @@ global.charID19 = {
 }
 
 global.charID20 = {
-  botName : "Benimaru",
+  botName : "𝘽𝙚𝙣𝙞𝙢𝙖𝙧𝙪",
   botVideo : fs.readFileSync("./Assets/benimaru.mp4"),
   botImage1 : "https://wallpapercave.com/wp/wp5950608.png", 
   botImage2 : "https://wallpapercave.com/wp/wp5950713.jpg", 
@@ -269,3 +269,4 @@ global.charID20 = {
   botImage5 : "https://wallpapercave.com/wp/wp5950773.png",
   botImage6 : "https://wallpapercave.com/wp/wp6240991.jpg",
 }
+
