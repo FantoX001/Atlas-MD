@@ -252,6 +252,7 @@ textHelpMenu +=`*🖤  ${botName}  🖤*
 
 ⚠️ To use any of these commands type " *${prefix}Command name* ".
 
+📌 Type *${prefix}rank* to get your rank.
 \n`
 
 let buttons = [
