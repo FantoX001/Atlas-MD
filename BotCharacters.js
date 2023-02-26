@@ -260,7 +260,7 @@ global.charID19 = {
 }
 
 global.charID20 = {
-  botName : "Banimaru",
+  botName : "Benimaru",
   botVideo : fs.readFileSync("./Assets/benimaru.mp4"),
   botImage1 : "https://wallpapercave.com/wp/wp5950608.png", 
   botImage2 : "https://wallpapercave.com/wp/wp5950713.jpg", 
