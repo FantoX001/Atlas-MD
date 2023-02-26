@@ -10,7 +10,7 @@ module.exports = {
     alias: ["modlist","mods","mod"],
     category: "Core", 
     usage: "owner", 
-    react: "🏅", 
+    react: "🃏", 
     start: async (
       Miku, 
       m, 
@@ -38,7 +38,7 @@ module.exports = {
             }
 
             for (var i = 0; i < ownerList.length; i++) {
-              textM += `\n〽️ @ ${ownerList[i]}\n`
+              textM += `\n〽📌 @ ${ownerList[i]}\n`
             }
 
             if(modlistString != ""){
@@ -48,7 +48,7 @@ module.exports = {
             } 
             
             if(modlistString != "" || ownerList.length != 0){
-               textM += `\n\n📛 *Don't Spam them to avoid Blocking !*\n\n🎀 For any help, type *${prefix}support* and ask in group.\n\n*💫 Thanks for using ${botName}. 💫*\n`
+               textM += `\n\n📛 *Don't Spam them to avoid Blocking !*\n\n🎀 For any help, ask in group💬.\n\n*☯️ Thanks for using ${botName}. ☯️*\n`
             }
             
             return Miku.sendMessage( 
