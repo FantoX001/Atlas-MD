@@ -24,6 +24,8 @@ const { mkchar } = require("./Database/dataschema.js");
 17 --- Yor
 18 --- Shinbou
 19 --- Eiko
+20 --- Benimaru // Added By Yakashi
+21 --- Yakashi  // Added By Yakashi
 
 Image Source: https://wall.alphacoders.com/
 Image Source: https://wallpapercave.com/
@@ -258,3 +260,13 @@ global.charID19 = {
   botImage6 : "https://images2.alphacoders.com/125/1251795.jpg",
 }
 
+global.charID20 = {
+  botName : "Banimaru",
+  botVideo : fs.readFileSync("./Assets/benimaru.mp4"),
+  botImage1 : "https://wallpapercave.com/wp/wp5950608.png", 
+  botImage2 : "https://wallpapercave.com/wp/wp5950713.jpg", 
+  botImage3 : "https://wallpapercave.com/wp/wp5950778.jpg", 
+  botImage4 : "https://wallpapercave.com/wp/wp5950813.png",
+  botImage5 : "https://wallpapercave.com/wp/wp5950773.png",
+  botImage6 : "https://wallpapercave.com/wp/wp6240991.jpg",
+}
