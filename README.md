@@ -108,6 +108,7 @@ Note: If you don't pre-install these plugins before CMD / VS code Installation b
 <a href="https://github.com/Yakashi13/Yaka-MD">
     <img src="./Page/yaka.jpg">
   </a>
+    </p>
     
 <br> <br>
 
