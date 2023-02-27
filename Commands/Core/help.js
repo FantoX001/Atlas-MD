@@ -31,7 +31,7 @@ let textHelpMenu = `𝐊𝐨𝐧𝐢𝐜𝐡𝐢𝐰𝐚 *${pushName}* 𝐒𝐞�
 
 I am *${botName}*.
 
-⭕️ My prefix is: *${prefix}*
+🔗 My prefix is: *${prefix}*
 
 Here's the list of my Commands.\n
              
@@ -246,9 +246,7 @@ textHelpMenu += `╭────ꕥ NSFW ꕥ────╮
           
 textHelpMenu +=`*🖤  ${botName}  🖤*
 
-☞ _MOD Owned By: *Yakashi.*_
-
-☞ _Powered By:_ *Team ATLAS.*
+☞ _Owned By: *🇾‌ 🇦‌ 🇰‌ 🇦‌ 🇸‌ 🇭‌ 🇮‌.*_
 
 ⚠️ To use any of these commands type " *${prefix}Command name* ".
 
@@ -263,7 +261,7 @@ let buttons = [
     },
     {
       buttonId: `${prefix}owner`,
-      buttonText: { displayText: "Host Owner" },
+      buttonText: { displayText: "Owner" },
       type: 1,
     },
   ];
