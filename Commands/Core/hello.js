@@ -5,6 +5,6 @@ module.exports = {
     react: "💜",
     category: "Core",
     start: async(Miku, m,{pushName,prefix}) => {
-        await Miku.sendMessage(m.from,{text:`𝐘𝐨𝐨 *${pushName}* !!,\n I am *${botName}* `},{quoted:m})
+        await Miku.sendMessage(m.from,{text:`𝐘𝐨𝐨 *${pushName}* !!,\n* I am *${botName}* `},{quoted:m})
     }
 }
