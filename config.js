@@ -32,7 +32,7 @@
 require("dotenv").config();
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "+94774516277";   // You can Change this number //
+  gg = "[Yakashi](https://wa.me/94774516277)";   // You can Change this number //
 }
 
 // -------------------------------------------------------------- //
@@ -44,7 +44,7 @@ global.sessionId = process.env.SESSION_ID || "ok";
 global.prefa = process.env.PREFIX || "-";
 global.tenorApiKey =
   process.env.TENOR_API_KEY || "AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c";
-global.packname = process.env.PACKNAME || `𝖄𝖆𝖐𝖆𝖘𝖍𝖎 𝕸𝕯`;
+global.packname = process.env.PACKNAME || `𝖄𝖆𝖐𝖆 𝕸𝕯`;
 global.author = process.env.AUTHOR || "by: 𝖄𝖆𝖐𝖆𝖘𝖍𝖎";
 global.port = process.env.PORT || "8000";
 
