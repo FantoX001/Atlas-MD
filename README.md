@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/Yakashi13/Yaka-MD">
-    <img src="./Page/yaka.jpg">
+    <img src="./Page/yakashi.png">
   </a>
 
 <h1 align="center"> Yaka<sup>MD
@@ -102,9 +102,14 @@ Note: If you don't pre-install these plugins before CMD / VS code Installation b
 - We don't recommend to change the `Economy database` we have added inside script. `If you do so, you will be responsible for any issues and we will not provide any support`.
 - We will not be responsible for any issues caused by any individual hosting this bot and cause any harm to any Group `(So don't make someone Group Admin who you don't know just because they are hosting the Bot)`.
 
-<br>
+<br> <br>
 
-
+    <p align="center">
+<a href="https://github.com/Yakashi13/Yaka-MD">
+    <img src="./Page/yaka.jpg">
+  </a>
+    
+<br> <br>
 
 <h2 align="center">♥️ You can get the original bot from <a href="https://github.com/FantoX001/Atlas-MD">here</a>. don't forgot to give some love for their hard work !!.. ♥️
 </h2>
