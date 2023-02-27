@@ -4,7 +4,7 @@ const { mkchar } = require("./Database/dataschema.js");
 
 /* ---Added Anime Character list---  /
 
- 0 --- Atlas MD
+ 0 --- Yaka MD
  1 --- Power
  2 --- Makima
  3 --- Denji
@@ -34,14 +34,14 @@ Image Source: https://wallpapercave.com/
 
 
 global.charID0 = {
-    botName : "Atlas MD",
+    botName : "Yaka MD",
     botVideo : fs.readFileSync("./Assets/atlas.mp4"),
-    botImage1 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage2 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage3 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage4 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage5 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage6 : "https://i.imgur.com/MClOeqe.jpeg",
+    botImage1 : "https://cdn.dribbble.com/users/2400955/screenshots/10843457/test_4x.jpg",
+    botImage2 : "https://cdn.dribbble.com/users/2400955/screenshots/10843457/test_4x.jpg",
+    botImage3 : "https://cdn.dribbble.com/users/2400955/screenshots/10843457/test_4x.jpg",
+    botImage4 : "https://cdn.dribbble.com/users/2400955/screenshots/10843457/test_4x.jpg",
+    botImage5 : "https://cdn.dribbble.com/users/2400955/screenshots/10843457/test_4x.jpg",
+    botImage6 : "https://cdn.dribbble.com/users/2400955/screenshots/10843457/test_4x.jpg",
 }
 
 global.charID1 = {
@@ -216,12 +216,12 @@ global.charID15 = {
 global.charID16 = {
   botName : "𝙈𝙖𝙞",
   botVideo : fs.readFileSync("./Assets/mai.mp4"),
-  botImage1 : "https://images4.alphacoders.com/972/972790.jpg",
+  botImage1 : "https://wallpapercave.com/wp/wp8435260.png",
   botImage2 : "https://images6.alphacoders.com/129/1292073.png",
-  botImage3 : "https://images3.alphacoders.com/994/994295.png",
+  botImage3 : "https://wallpapercave.com/wp/wp5233923.jpg",
   botImage4 : "https://images4.alphacoders.com/971/971659.jpg",
-  botImage5 : "https://images.alphacoders.com/102/1027053.jpg",
-  botImage6 : "https://images5.alphacoders.com/105/1057377.jpg",
+  botImage5 : "https://wallpapercave.com/wp/wp10128838.png",
+  botImage6 : "https://wallpapercave.com/wp/wp10128852.jpg",
 }
 
 
