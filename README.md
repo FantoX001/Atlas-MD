@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/Yakashi13/Yaka-MD">
-    <img src="./Page/yakashi.png">
+    <img src="./Page/yaka.jpg">
   </a>
 
 <h1 align="center"> Yaka<sup>MD
