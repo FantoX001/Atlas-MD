@@ -12,14 +12,14 @@ module.exports = {
     desc: "Ban a member", 
     category: "core", 
     usage: "setchar 0/1/2/3/4/5/6/7", 
-    react: "🎀", 
+    react: "✔️", 
     start: async ( 
       Miku, 
       m, 
       { text, prefix, isBotAdmin, isAdmin, mentionByTag, pushName, isCreator,modStatus} 
     ) => { 
 
-      if (modStatus=="false"&&!isCreator)  return m.reply('Sorry, only my *Owners* can use this command !');
+      if (modStatus=="false"&&!isCreator)  return m.reply('Sorry, only my *Owners* and "Mods" can use this command !');
       if (!text) return m.reply(`Please provide a character number to set (0/1/2/3/4/5/6/7).\n\nExample: ${prefix}setchar 0`);
 
       let charNum = text;
@@ -28,7 +28,7 @@ module.exports = {
 
 /* ---Added Anime Characters list---  /
 
- 0 --- Atlas MD
+ 0 --- Yaka MD
  1 --- Power
  2 --- Makima
  3 --- Denji
@@ -52,9 +52,9 @@ module.exports = {
 
 */
 
-      let botNames = ['Atlas MD', '𝙋𝙤𝙬𝙚𝙧', '𝙈𝙖𝙠𝙞𝙢𝙖', '𝘿𝙚𝙣𝙟𝙞', '𝙕𝙚𝙧𝙤 𝙏𝙬𝙤', '𝘾𝙝𝙞𝙠𝙖' , '𝙈𝙞𝙠𝙪', '𝙈𝙖𝙧𝙞𝙣 𝙆𝙞𝙩𝙖𝙜𝙖𝙬𝙖','𝘼𝙮𝙖𝙣𝙤𝙠𝙤𝙟𝙞','𝙍𝙪𝙠𝙖','𝙈𝙞𝙯𝙪𝙝𝙖𝙧𝙖','𝙍𝙚𝙢','𝙎𝙪𝙢𝙞','𝙆𝙖𝙜𝙪𝙮𝙖','𝙔𝙪𝙢𝙚𝙠𝙤','𝙆𝙪𝙧𝙪𝙢𝙞','𝙈𝙖𝙞','𝙔𝙤𝙧','𝙎𝙝𝙞𝙣𝙤𝙗𝙪','𝙀𝙞𝙠𝙤', '𝘽𝙚𝙣𝙞𝙢𝙖𝙧𝙪']
+      let botNames = ['Yaka MD', '𝙋𝙤𝙬𝙚𝙧', '𝙈𝙖𝙠𝙞𝙢𝙖', '𝘿𝙚𝙣𝙟𝙞', '𝙕𝙚𝙧𝙤 𝙏𝙬𝙤', '𝘾𝙝𝙞𝙠𝙖' , '𝙈𝙞𝙠𝙪', '𝙈𝙖𝙧𝙞𝙣 𝙆𝙞𝙩𝙖𝙜𝙖𝙬𝙖','𝘼𝙮𝙖𝙣𝙤𝙠𝙤𝙟𝙞','𝙍𝙪𝙠𝙖','𝙈𝙞𝙯𝙪𝙝𝙖𝙧𝙖','𝙍𝙚𝙢','𝙎𝙪𝙢𝙞','𝙆𝙖𝙜𝙪𝙮𝙖','𝙔𝙪𝙢𝙚𝙠𝙤','𝙆𝙪𝙧𝙪𝙢𝙞','𝙈𝙖𝙞','𝙔𝙤𝙧','𝙎𝙝𝙞𝙣𝙤𝙗𝙪','𝙀𝙞𝙠𝙤', '𝘽𝙚𝙣𝙞𝙢𝙖𝙧𝙪']
       let botLogos =[
-        'https://wallpapercave.com/wp/wp5924545.jpg',
+        'https://cdn.dribbble.com/users/2400955/screenshots/10843457/media/4853cc6ddfdd1f5400ea40a608f10fef.jpg',
         'https://wallpapercave.com/wp/wp11253614.jpg',
         'https://images5.alphacoders.com/126/1264439.jpg',
         'https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2022/11/Chainsaw-Man-Denji-e-Power.webp?resize=1068%2C601&ssl=1',
@@ -70,7 +70,7 @@ module.exports = {
         'https://wallpapercave.com/wp/wp6099650.png',
         'https://wallpapercave.com/wp/wp5017991.jpg',
         'https://wallpapercave.com/wp/wp2535489.jpg',
-        'https://images4.alphacoders.com/972/972790.jpg',
+        'https://wallpapercave.com/wp/wp10128659.png',
         'https://images7.alphacoders.com/123/1236729.jpg',
         'https://wallpapercave.com/wp/wp4650481.jpg',
         'https://images8.alphacoders.com/122/1229829.jpg',
