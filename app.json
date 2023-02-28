@@ -1,6 +1,6 @@
 {
     
-    "name": "Atlas-MD",
+    "name": "Yaka-MD",
     "description": "The Future of WhatsApp bots.",
     "keywords": [
         "bot",
@@ -15,8 +15,8 @@
         "baileys-md",
         "md-bot"
     ],
-    "website": "https://github.com/FantoX001/Atlas-MD#readme",
-    "repository": "https://github.com/FantoX001/Atlas-MD.git",
+    "website": "https://github.com/Yakashi13/Yaka-MD#readme",
+    "repository": "https://github.com/Yakashi13/Yaka-MD.git",
     "logo": "https://i.imgur.com/MClOeqe.jpeg",
     "success_url": "/",
     "env": {
@@ -27,7 +27,7 @@
             "description": "A random string for your bot session. Which works as an OTP to get qr code. And you have to chane sessioon every time to get a new qr."
         },
         "MODS": {
-            "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\" Ex: 918101187835,929864781259 )"
+            "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\" )"
         },
         "TENOR_API_KEY": {
             "description": "A key used for gif searches. If you don't have any read PublicKeys.md to get a public Tenor API key. Or copy paste it: AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c"
