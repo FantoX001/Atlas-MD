@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/Yakashi13/Yaka-MD">
-    <img src="./Page/yakashi.png">
+    <img src="./Page/yaka.jpg">
   </a>
 
 <h1 align="center"> Yaka<sup>MD
@@ -105,15 +105,11 @@ Note: If you don't pre-install these plugins before CMD / VS code Installation b
 <br> <br>
 
 <a href="https://github.com/Yakashi13/Yaka-MD">
-    <img src="./Page/yaka.jpg">
+    <img src="./Page/yakashi.png">
   </a>
     </p>
     
-<br> <br>
-
-<h2 align="center">♥️ You can get the original bot from <a href="https://github.com/FantoX001/Atlas-MD">here</a>. don't forgot to give some love for their hard work !!.. ♥️
-</h2>
-
+<br>
 <br>
 
-<h2 align="center">Yakashi..</h2>
+<h2 align="center"> - Yakashi - </h2>
