@@ -8,7 +8,7 @@ module.exports = {
   desc: "To make any text to quote",
   category: "Search",
   usage: `q <Your line>`,
-  react: "🍁",
+  react: "👀",
   start: async (Miku, m, { text, prefix, args, pushName }) => {
     if (!args[0] && !m.quoted)
       return m.reply(`Please provide a text (Type or mention a message) !`)
