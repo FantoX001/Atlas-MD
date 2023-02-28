@@ -3,7 +3,7 @@
     <img src="./Page/yaka.jpg">
   </a>
 
-<h1 align="center"> Yaka<sup>MD
+<h1 align="center"> Y A K A<sup>MD
 </h1>
 
 <p align="center"> 
