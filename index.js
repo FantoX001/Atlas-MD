@@ -1,32 +1,3 @@
-/* ---------------------------------------------------------------------------------/
-/                                                                                   /
-/             d8888 888    888                        888b     d888 8888888b.       /
-/            d88888 888    888                        8888b   d8888 888  "Y88b      /
-/           d88P888 888    888                        88888b.d88888 888    888      /
-/          d88P 888 888888 888  8888b.  .d8888b       888Y88888P888 888    888      /
-/         d88P  888 888    888     "88b 88K           888 Y888P 888 888    888      /
-/        d88P   888 888    888 .d888888 "Y8888b.      888  Y8P  888 888    888      /
-/       d8888888888 Y88b.  888 888  888      X88      888   "   888 888  .d88P      /
-/      d88P     888  "Y888 888 "Y888888  88888P'      888       888 8888888P"       /
-/                                                                                   / 
-/-----------------------------------------------------------------------------------/
-/ Author and Main Developer: FantoX                                                 /
-/ Github: https://github.com/FantoX001/Atlas-MD                                     /
-/ Powered By: Team ATLAS                                                            /
-/-----------------------------------------------------------------------------------/
-/             Meet Team ATLAS who holds all rights to this repository:              /
-/                                                                                   /
-/ 1. Pratyush - https://github.com/pratyush4932                                     /
-/ 2. Ahmii - https://github.com/kirito2355                                          /               
-/ 3. Kai - https://github.com/Kai0071                                               /                    
-/ 4. Devime - https://github.com/Devime69                                           /
-/ 5. Jay JayOps - https://github.com/jayjay-ops                                     /
-/                                                                                   /
-/ ----------------------------------------------------------------------------------/
-/                                                                                   /
-/      With all of our hard work and defication you can enjoy this awesome bot!     /  
-/                                                                                   / 
-/----------------------------------------------------------------------------------*/
 
 require("./config.js");
 require("./Core.js");
@@ -165,8 +136,8 @@ async function startMiku() {
         whitespaceBreak: true
     }), 'yellow'))
 
-    console.log(color('\nHello, I am Fantox, the main developer of this bot.\n\nThanks for using: Atlas MD made by my Team Atlas.', 'aqua'))
-    console.log(color('\nYou can follow me on GitHub: FantoX001\n\n', 'aqua'))
+    console.log(color('\nHello, I am Yakashi, the owner of this bot.\n\nThanks for using: Yaka MD.\nThe Original Bot Is Developed By TEAM ATLAS. This is a Modified One.', 'aqua'))
+    console.log(color('\nYou can follow me on GitHub: Yakashi13\n\n', 'aqua'))
 
 
 
@@ -180,7 +151,7 @@ async function startMiku() {
             level: 'silent'
         }),
         printQRInTerminal: true,
-        browser: ['Atlas MD', 'Safari', '1.0.0'],
+        browser: ['Yaka MD', 'Safari', '1.0.0'],
         auth: state,
         version
     })
