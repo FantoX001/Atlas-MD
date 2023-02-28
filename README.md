@@ -38,7 +38,7 @@
 - Self / Public / Private mode.
 - Single prefix ( "-" ).
 - RPG and Economy added ( More coming soon ).
-- Group Chatbot / Dm Chatbot ( Only reply on quoted messages and and be turned off ).
+- Group Chatbot / Dm Chatbot ( Only reply on quoted messages and can turned off ).
 - 100+ NSFW commands ( Using FantoX API ). Visit: [FantoX API Page](https://fantox-api.vercel.app) for more info. 
 - Highest Commands and Features.
 - User Banning / Group Banning.
