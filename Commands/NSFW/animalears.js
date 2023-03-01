@@ -29,7 +29,7 @@ module.exports = {
     ];
     let bmffg = {
       image: {url: imgURL},
-      caption: `\n*🎀 FantoX APIs 🎀*\n\n*🧩 API link:* \nhttps://fantox-api.vercel.app\n`,
+      caption: `\n* Here What you are looking for 👀..*\n\n*`,
       footer: `*${botName}*`,
       buttons: Button,
       headerType: 4,
