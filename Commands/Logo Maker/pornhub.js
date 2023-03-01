@@ -7,7 +7,7 @@ module.exports = {
     react: "🍁",
     category: "Logo Maker",
     start: async(Miku, m,{pushName,prefix,text}) => {
-        if(!text.includes("|")) return m.reply(`Example: *${prefix}pornhub Atlas Bot|Team Atlas*`);
+        if(!text.includes("|")) return m.reply(`Example: *${prefix}pornhub Text1|Text2*`);
         teks1 = text.split("|")[0]
         teks2 = text.split("|")[1]
         maker.textpro("https://textpro.me/pornhub-style-logo-online-generator-free-977.html", [
