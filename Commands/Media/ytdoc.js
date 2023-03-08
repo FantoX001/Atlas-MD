@@ -20,6 +20,7 @@ module.exports = {
     let videoUrl = text;
     let videoId = videoUrl.split("v=")[1];
     let search = await yts(text);
+    let songName = search.all[0].title || "Converted"
 
     yts({ videoId })
       .then((result) => {
@@ -35,7 +36,7 @@ module.exports = {
               m.from,
               {
                 document: fs.readFileSync(file.path),
-                fileName: `${search.all[0].title} by ${botName}.mp3`,
+                fileName: `${songName} by ${botName}.mp3`,
                 mimetype: "audio/mpeg",
               },
               { quoted: m },
