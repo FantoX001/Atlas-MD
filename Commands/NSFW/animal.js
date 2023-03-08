@@ -7,7 +7,9 @@ module.exports = {
   category: "Nsfw",
   usage: `animal`,
   react: "🍁",
-  start: async (Miku, m, { prefix,NSFWstatus }) => {
+  start: async (Miku, m, { prefix,NSFWstatus,isGroup }) => {
+
+if(!isGroup) return m.reply(`you can only use this command in groups`);
 
     if (NSFWstatus == "false") return m.reply(`This group is not NSFW enabled!\n\nTo configure NSFW mode, type:\n\n*${prefix}nsfw*`);
     m.reply(mess.waiting)

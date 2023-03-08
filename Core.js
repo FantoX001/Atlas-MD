@@ -460,6 +460,32 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
       );
     }
 
+    //------Chat statement------\\
+
+switch(body){
+case 'hi': case 'Hi' : case 'Hii' : case 'hello': case 'Hello': { m.reply("Hi Baby Whatsup🌚!!")
+} break;
+    
+  case 'fuck': case 'Fuk': case 'Fuckk': case 'Fukk': case 'Fuck': { m.reply("Come Baby! fuck me hard!!🌚💦")}
+    break;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+//------------------------------------\\
     if (cmd) {
       const randomXp = Math.floor(Math.random() * 3) + 1; //Random amont of XP until the number you want + 1
       const haslUp = await Levels.appendXp(m.sender, "bot", randomXp);
